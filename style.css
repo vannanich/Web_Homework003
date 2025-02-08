@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.contact{
+    display: flex;
+    justify-content: end;
+}
+.pic3{
+    display: flex;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: green;
+    text-decoration: underline;
+}
+nav a:active{
+    color: red;
+}
+.contact{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    padding: 12px 25px;
+    border-radius: 30px; 
+}
+.contact:hover{
+    background-color: rgb(36, 183, 236);
+}
+.body{
+    background-color: rgb(218, 217, 217);
+    width: 1200px;
+    height: 800px;
+    border-radius: 3%;
+    align-items: center;
+
+}
+.box{
+   
+    padding: 10px;
+    background-color:rgba(241, 233, 233, 0.851);
+    width: 85%;
+    height: 700px;
+    margin: 10%;
+    border-radius: 5px;
+}
+
+.box img{
+    border-radius: 20px;
+    margin: 3%;
+    margin-top: 3%;
+    width: 250px;
+    height: 150px;
+
+}
+.img{
+    margin-top: 5%;
+    margin:5%;
+    background-color: white;
+    height:160px;
+    width: 250px;
+    border-radius: 10%;
+    padding: 10px;
+
+}
+.super1{
+    display: flex;
+
+}
+ .img1{
+    margin:5%;
+    height:160px;
+    width: 250px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 50px;
+ 
+ }
+.text {
+    position: absolute;
+    top: 5px;  
+    left: 5px; 
+    margin-top: 300px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex;
+    cursor: pointer;
+}
+.sunset{
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+    background-image: url("img/sunset1.jpg");
+    background-size: cover;
+    
+}
+.text-below{
+    display:flex;
+    justify-content:space-between ;
+    margin: 3px;
+    font-size: larger;
+}
+.SR {
+    display:flex;
+    justify-content:space-between ;
+    margin: 3px;
+}
+
+.SR p{
+    margin: 0px;
+}
+
+
+.star{
+    width: 20px;
+    height: 20px;
+    color: rgb(173, 173, 30);
+}
+.view{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+.img1{
+    /* background-color: black; */
+    background-image: url(img/sunset1.jpg);   
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.white{
+    background-color: rgba(255, 255, 255, 0.619);
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+    margin-left: 0;
+}
+.one-star{
+    display: flex;
+    color: yellow;
+
+}
+.beach{
+    background-image: url(img/sunset2.jpg);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.sun{
+    /* background-image: url(img/sunset.jpg); */
+    margin-top: 50px;
+    background-color: white;
+    height:160px;
+    width: 250px;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.sun1{
+    display: flex;
+    justify-content: space-between;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.sun2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+ .sun3{
+    margin-left: 100px;
+    position: relative;
+    
+}
+/* .m1{
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    
+}
+.m2{
+    position:absolute;
+    z-index: 2;
+    margin-left: 30px;
+}
+.m3{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60px;
+}  */
+.black{
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.619);
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+    
+}
+.img-three{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+}
+.number{
+    display: flex;
+}
+.text p {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+    font-weight: bold;
+    margin: 10px;
+}
+.Art {
+    /* flex: 1;  */
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(29, 20, 20);
+}
+.Art h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+.Art p {
+    font-size: 16px;
+    color:black;
+    margin-left: 70px;
+
+}
+.all-p{
+    margin-top: 50px;
+}
+.Explore{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.Explore{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    padding: 12px 25px;
+    border-radius: 30px; 
+    gap: 50px;
+    margin-left: 70px;
+    background-color: rgb(145, 190, 220);
+}
+.Explore:hover{
+    background-color: rgb(36, 183, 236);
+
+}
+.fa-solid fa-play{
+    margin-left: 10px;
+}
+.sentence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    font-size: large;
+
+}
+
+.under_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px; 
+}
+.under_text p {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(29, 20, 20);
+}
+.normal-text{
+    width: 570px;
+    margin-left:25px;
+    font-size: x-large;
+}
+.Spic {
+    display: flex;
+    align-items: center; 
+    gap: 50px;
+    
+}
+.image-shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+   
+}
+
+.imgg1, .imgg3 {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.imgg2 {
+    display: flex;
+    width: 200px;
+    height: 350px; 
+    margin-top: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    align-self: flex-end;
+    gap: x 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: all 0.5s ease-in-out;
+}
+.imgg2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.imgg3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
+}
+.imgg1:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+
+}
+.Explore{
+    background-color: rgb(244, 175, 46);
+}
+
+.travel{
+    text-align: center;
+}
+.Reignite{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 200px;
+}
+.Reignite h1{
+    color: rgb(67, 63, 190);
+}
+.Reignite p{
+    width: 360px;
+}
+.baseee{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 4rem;
+    margin: 0;
+}
+.mount{
+    background-image: url(img/sunset1.jpg);
+    width: 300px;
+    height:400px;
+    margin-right: 50%;
+   
+}
+.all{
+    width: 50%;
+    height: 100%;
+ 
+}
+.last-img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    
+}
+.m1{
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-right: 100px;
+    background-color:  rgb(230, 224, 224);
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    bottom: 505px;
+    border-radius: 10px;
+
+
+
+}
+.m2{
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-right: 100px;
+    background-color:  rgb(230, 224, 224);
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    bottom: 505px;
+    border-radius: 10px;
+
+}
+.m3{
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-right: 100px;
+    background-color:  rgb(230, 224, 224);
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    bottom: 505px;
+    border-radius: 10px;
+
+}
+.foot{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
